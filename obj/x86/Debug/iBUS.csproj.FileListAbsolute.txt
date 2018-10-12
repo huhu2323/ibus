@@ -1,0 +1,97 @@
+c:\users\ricshelarica\documents\visual studio 2010\Projects\iBUS\bin\Debug\iBUS.exe
+c:\users\ricshelarica\documents\visual studio 2010\Projects\iBUS\bin\Debug\iBUS.pdb
+c:\users\ricshelarica\documents\visual studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.Properties.Resources.resources
+c:\users\ricshelarica\documents\visual studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.csproj.GenerateResource.Cache
+c:\users\ricshelarica\documents\visual studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.exe
+c:\users\ricshelarica\documents\visual studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.pdb
+c:\users\ricshelarica\documents\visual studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.bus.resources
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.driver.resources
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.conductor.resources
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.trip.resources
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.bus_list.resources
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.csprojResolveAssemblyReference.cache
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.conductor_list.resources
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.driver_list.resources
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.home.resources
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.bus_report.resources
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.conductor_report.resources
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.driver_report.resources
+C:\Users\Ricshelarica\Documents\Visual Studio 2010\Projects\iBUS\obj\x86\Debug\iBUS.splashscreen.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.exe
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.pdb
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\bin\Debug\iBUS.exe
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\bin\Debug\iBUS.pdb
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.csprojResolveAssemblyReference.cache
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.bus.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.bus_list.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.bus_report.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.conductor.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.conductor_list.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.conductor_report.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.driver.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.driver_list.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.driver_report.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.home.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.Properties.Resources.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.splashscreen.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.trip.resources
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\obj\x86\Debug\iBUS.csproj.GenerateResource.Cache
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Erick John Limon\Desktop\bago na naman_\iBUS\bin\Debug\iBUS.exe.config
+C:\Users\Ricshelarica\Desktop\new\iBUS\bin\Debug\iBUS.exe.config
+C:\Users\Ricshelarica\Desktop\new\iBUS\bin\Debug\iBUS.exe
+C:\Users\Ricshelarica\Desktop\new\iBUS\bin\Debug\iBUS.pdb
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.admin_home.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.bus.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.bus_report.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.conductor.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.conductor_report.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.driver.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.driver_report.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.home.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.login.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.Properties.Resources.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.register.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.splashscreen.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.trip.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.uc_bus.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.uc_dashboard.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.csproj.GenerateResource.Cache
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.exe
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.pdb
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.announcement.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.uc_driver.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.uc_conductor.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.uc_company.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.uc_profile.resources
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.csprojResolveAssemblyReference.cache
+C:\Users\Ricshelarica\Desktop\new\iBUS\obj\x86\Debug\iBUS.events.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\bin\Debug\iBUS.exe.config
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\bin\Debug\iBUS.exe
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\bin\Debug\iBUS.pdb
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.admin_home.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.announcement.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.bus.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.bus_report.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.conductor.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.conductor_report.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.driver.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.driver_report.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.events.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.home.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.login.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.Properties.Resources.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.register.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.splashscreen.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.trip.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.uc_bus.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.uc_company.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.uc_conductor.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.uc_dashboard.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.uc_driver.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.uc_profile.resources
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.csproj.GenerateResource.Cache
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.exe
+C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.pdb
