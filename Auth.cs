@@ -7,8 +7,8 @@ namespace iBUS
 {
     static class Auth
     {
-        public static int user_id;
-        public static int user_company;
+        public static Nullable<int> user_id;
+        public static Nullable<int> user_company;
         public static String user_fname;
         public static String user_lname;
         public static String user_email;
@@ -20,12 +20,24 @@ namespace iBUS
         public static String user_answer;
         public static byte[] user_photo;
 
-        public static void login(String username, String password)
+        public static bool login(String username, String password)
         {
             var user = User.checkLogin(username, password);
-            if (string.IsNullOrEmpty(user.user_username))
+            if (user.user_id == null)
             {
                 Console.WriteLine("Error!");
+                Auth.user_id = null;
+                Auth.user_company = null;
+                Auth.user_fname = "";
+                Auth.user_lname = "";
+                Auth.user_email = "";
+                Auth.user_contact = "";
+                Auth.user_username = "";
+                Auth.user_password = "";
+                Auth.user_position = "";
+                Auth.user_question = "";
+                Auth.user_answer = "";
+                return false;
             }
             else
             {
@@ -41,6 +53,7 @@ namespace iBUS
                 Auth.user_question = user.user_question;
                 Auth.user_answer = user.user_answer;
                 Auth.user_photo = user.user_photo;
+                return true;
             }
         }
     }

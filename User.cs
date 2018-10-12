@@ -8,8 +8,8 @@ namespace iBUS
 {
     class User
     {
-        public int user_id;
-        public int user_company;
+        public Nullable<int> user_id;
+        public Nullable<int> user_company;
         public String user_fname;
         public String user_lname;
         public String user_email;

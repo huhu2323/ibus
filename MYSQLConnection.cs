@@ -8,7 +8,7 @@ namespace iBUS
 {
     class MYSQLConnection
     {
-        public static String connectionString = "datasource=192.168.43.99;port=3306;database=ibusdb;username=root;password=";
+        public static String connectionString = "datasource=localhost;port=3306;database=ibusdb;username=root;password=";
 
     }
 }

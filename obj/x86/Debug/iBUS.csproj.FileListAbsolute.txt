@@ -95,3 +95,30 @@ C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of 
 C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.csproj.GenerateResource.Cache
 C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.exe
 C:\Users\Jheana\Desktop\sometimes i run sometimes i hide sometimes im scared of you but all I really want is to graduate and have a stable job\iBUS\obj\x86\Debug\iBUS.pdb
+C:\Users\malun\Downloads\updated-ibus\iBUS\bin\Debug\iBUS.exe.config
+C:\Users\malun\Downloads\updated-ibus\iBUS\bin\Debug\iBUS.exe
+C:\Users\malun\Downloads\updated-ibus\iBUS\bin\Debug\iBUS.pdb
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.Properties.Resources.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.csproj.GenerateResource.Cache
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.exe
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.pdb
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_admin_home.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_announcement.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_new_bus.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_bus_report.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_conductor.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_conductor_report.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_driver.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_driver_report.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_events.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_home.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_login.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_register.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_splashscreen.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_trip.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_uc_bus.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_uc_company.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_uc_conductor.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_uc_dashboard.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_uc_driver.resources
+C:\Users\malun\Downloads\updated-ibus\iBUS\obj\x86\Debug\iBUS.frm_uc_profile.resources

@@ -71,73 +71,75 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="admin_home.cs">
+    <Compile Include="Bus.cs" />
+    <Compile Include="BusClass.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="frm_admin_home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="admin_home.Designer.cs">
-      <DependentUpon>admin_home.cs</DependentUpon>
+    <Compile Include="frm_admin_home.Designer.cs">
+      <DependentUpon>frm_admin_home.cs</DependentUpon>
     </Compile>
-    <Compile Include="announcement.cs">
+    <Compile Include="frm_announcement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="announcement.Designer.cs">
-      <DependentUpon>announcement.cs</DependentUpon>
+    <Compile Include="frm_announcement.Designer.cs">
+      <DependentUpon>frm_announcement.cs</DependentUpon>
     </Compile>
     <Compile Include="Auth.cs" />
-    <Compile Include="bus.cs">
+    <Compile Include="frm_new_bus.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bus.Designer.cs">
-      <DependentUpon>bus.cs</DependentUpon>
+    <Compile Include="frm_new_bus.Designer.cs">
+      <DependentUpon>frm_new_bus.cs</DependentUpon>
     </Compile>
-    <Compile Include="bus_report.cs">
+    <Compile Include="frm_bus_report.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bus_report.Designer.cs">
-      <DependentUpon>bus_report.cs</DependentUpon>
+    <Compile Include="frm_bus_report.Designer.cs">
+      <DependentUpon>frm_bus_report.cs</DependentUpon>
     </Compile>
-    <Compile Include="conductor.cs">
+    <Compile Include="frm_conductor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="conductor.Designer.cs">
-      <DependentUpon>conductor.cs</DependentUpon>
+    <Compile Include="frm_conductor.Designer.cs">
+      <DependentUpon>frm_conductor.cs</DependentUpon>
     </Compile>
-    <Compile Include="conductor_report.cs">
+    <Compile Include="frm_conductor_report.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="conductor_report.Designer.cs">
-      <DependentUpon>conductor_report.cs</DependentUpon>
+    <Compile Include="frm_conductor_report.Designer.cs">
+      <DependentUpon>frm_conductor_report.cs</DependentUpon>
     </Compile>
-    <Compile Include="driver.cs">
+    <Compile Include="frm_driver.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="driver.Designer.cs">
-      <DependentUpon>driver.cs</DependentUpon>
+    <Compile Include="frm_driver.Designer.cs">
+      <DependentUpon>frm_driver.cs</DependentUpon>
     </Compile>
-    <Compile Include="DriverClass.cs" />
-    <Compile Include="driver_report.cs">
+    <Compile Include="frm_driver_report.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="driver_report.Designer.cs">
-      <DependentUpon>driver_report.cs</DependentUpon>
+    <Compile Include="frm_driver_report.Designer.cs">
+      <DependentUpon>frm_driver_report.cs</DependentUpon>
     </Compile>
-    <Compile Include="events.cs">
+    <Compile Include="frm_events.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="events.Designer.cs">
-      <DependentUpon>events.cs</DependentUpon>
+    <Compile Include="frm_events.Designer.cs">
+      <DependentUpon>frm_events.cs</DependentUpon>
     </Compile>
-    <Compile Include="home.cs">
+    <Compile Include="frm_home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="home.Designer.cs">
-      <DependentUpon>home.cs</DependentUpon>
+    <Compile Include="frm_home.Designer.cs">
+      <DependentUpon>frm_home.cs</DependentUpon>
     </Compile>
-    <Compile Include="login.cs">
+    <Compile Include="frm_login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="login.Designer.cs">
-      <DependentUpon>login.cs</DependentUpon>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
     </Compile>
     <Compile Include="MYSQLConnection.cs" />
     <Compile Include="OvalPictureBox.cs">
@@ -145,93 +147,94 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="register.cs">
+    <Compile Include="frm_register.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="register.Designer.cs">
-      <DependentUpon>register.cs</DependentUpon>
+    <Compile Include="frm_register.Designer.cs">
+      <DependentUpon>frm_register.cs</DependentUpon>
     </Compile>
-    <Compile Include="splashscreen.cs">
+    <Compile Include="frm_splashscreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="splashscreen.Designer.cs">
-      <DependentUpon>splashscreen.cs</DependentUpon>
+    <Compile Include="frm_splashscreen.Designer.cs">
+      <DependentUpon>frm_splashscreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="trip.cs">
+    <Compile Include="frm_trip.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="trip.Designer.cs">
-      <DependentUpon>trip.cs</DependentUpon>
+    <Compile Include="frm_trip.Designer.cs">
+      <DependentUpon>frm_trip.cs</DependentUpon>
     </Compile>
-    <Compile Include="uc_bus.cs">
+    <Compile Include="frm_uc_bus.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="uc_bus.Designer.cs">
-      <DependentUpon>uc_bus.cs</DependentUpon>
+    <Compile Include="frm_uc_bus.Designer.cs">
+      <DependentUpon>frm_uc_bus.cs</DependentUpon>
     </Compile>
-    <Compile Include="uc_company.cs">
+    <Compile Include="frm_uc_company.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="uc_company.Designer.cs">
-      <DependentUpon>uc_company.cs</DependentUpon>
+    <Compile Include="frm_uc_company.Designer.cs">
+      <DependentUpon>frm_uc_company.cs</DependentUpon>
     </Compile>
-    <Compile Include="uc_conductor.cs">
+    <Compile Include="frm_uc_conductor.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="uc_conductor.Designer.cs">
-      <DependentUpon>uc_conductor.cs</DependentUpon>
+    <Compile Include="frm_uc_conductor.Designer.cs">
+      <DependentUpon>frm_uc_conductor.cs</DependentUpon>
     </Compile>
-    <Compile Include="uc_dashboard.cs">
+    <Compile Include="frm_uc_dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="uc_dashboard.Designer.cs">
-      <DependentUpon>uc_dashboard.cs</DependentUpon>
+    <Compile Include="frm_uc_dashboard.Designer.cs">
+      <DependentUpon>frm_uc_dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="uc_driver.cs">
+    <Compile Include="frm_uc_driver.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="uc_driver.Designer.cs">
-      <DependentUpon>uc_driver.cs</DependentUpon>
+    <Compile Include="frm_uc_driver.Designer.cs">
+      <DependentUpon>frm_uc_driver.cs</DependentUpon>
     </Compile>
-    <Compile Include="uc_profile.cs">
+    <Compile Include="frm_uc_profile.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="uc_profile.Designer.cs">
-      <DependentUpon>uc_profile.cs</DependentUpon>
+    <Compile Include="frm_uc_profile.Designer.cs">
+      <DependentUpon>frm_uc_profile.cs</DependentUpon>
     </Compile>
+    <Compile Include="Station.cs" />
     <Compile Include="User.cs" />
-    <EmbeddedResource Include="admin_home.resx">
-      <DependentUpon>admin_home.cs</DependentUpon>
+    <EmbeddedResource Include="frm_admin_home.resx">
+      <DependentUpon>frm_admin_home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="announcement.resx">
-      <DependentUpon>announcement.cs</DependentUpon>
+    <EmbeddedResource Include="frm_announcement.resx">
+      <DependentUpon>frm_announcement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bus.resx">
-      <DependentUpon>bus.cs</DependentUpon>
+    <EmbeddedResource Include="frm_new_bus.resx">
+      <DependentUpon>frm_new_bus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bus_report.resx">
-      <DependentUpon>bus_report.cs</DependentUpon>
+    <EmbeddedResource Include="frm_bus_report.resx">
+      <DependentUpon>frm_bus_report.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="conductor.resx">
-      <DependentUpon>conductor.cs</DependentUpon>
+    <EmbeddedResource Include="frm_conductor.resx">
+      <DependentUpon>frm_conductor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="conductor_report.resx">
-      <DependentUpon>conductor_report.cs</DependentUpon>
+    <EmbeddedResource Include="frm_conductor_report.resx">
+      <DependentUpon>frm_conductor_report.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="driver.resx">
-      <DependentUpon>driver.cs</DependentUpon>
+    <EmbeddedResource Include="frm_driver.resx">
+      <DependentUpon>frm_driver.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="driver_report.resx">
-      <DependentUpon>driver_report.cs</DependentUpon>
+    <EmbeddedResource Include="frm_driver_report.resx">
+      <DependentUpon>frm_driver_report.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="events.resx">
-      <DependentUpon>events.cs</DependentUpon>
+    <EmbeddedResource Include="frm_events.resx">
+      <DependentUpon>frm_events.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="home.resx">
-      <DependentUpon>home.cs</DependentUpon>
+    <EmbeddedResource Include="frm_home.resx">
+      <DependentUpon>frm_home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="login.resx">
-      <DependentUpon>login.cs</DependentUpon>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -243,32 +246,32 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="register.resx">
-      <DependentUpon>register.cs</DependentUpon>
+    <EmbeddedResource Include="frm_register.resx">
+      <DependentUpon>frm_register.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="splashscreen.resx">
-      <DependentUpon>splashscreen.cs</DependentUpon>
+    <EmbeddedResource Include="frm_splashscreen.resx">
+      <DependentUpon>frm_splashscreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="trip.resx">
-      <DependentUpon>trip.cs</DependentUpon>
+    <EmbeddedResource Include="frm_trip.resx">
+      <DependentUpon>frm_trip.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="uc_bus.resx">
-      <DependentUpon>uc_bus.cs</DependentUpon>
+    <EmbeddedResource Include="frm_uc_bus.resx">
+      <DependentUpon>frm_uc_bus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="uc_company.resx">
-      <DependentUpon>uc_company.cs</DependentUpon>
+    <EmbeddedResource Include="frm_uc_company.resx">
+      <DependentUpon>frm_uc_company.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="uc_conductor.resx">
-      <DependentUpon>uc_conductor.cs</DependentUpon>
+    <EmbeddedResource Include="frm_uc_conductor.resx">
+      <DependentUpon>frm_uc_conductor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="uc_dashboard.resx">
-      <DependentUpon>uc_dashboard.cs</DependentUpon>
+    <EmbeddedResource Include="frm_uc_dashboard.resx">
+      <DependentUpon>frm_uc_dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="uc_driver.resx">
-      <DependentUpon>uc_driver.cs</DependentUpon>
+    <EmbeddedResource Include="frm_uc_driver.resx">
+      <DependentUpon>frm_uc_driver.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="uc_profile.resx">
-      <DependentUpon>uc_profile.cs</DependentUpon>
+    <EmbeddedResource Include="frm_uc_profile.resx">
+      <DependentUpon>frm_uc_profile.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
