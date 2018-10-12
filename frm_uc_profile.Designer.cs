@@ -303,6 +303,7 @@
             this.tb_company.Name = "tb_company";
             this.tb_company.Size = new System.Drawing.Size(271, 26);
             this.tb_company.TabIndex = 267;
+            this.tb_company.Text = "Admin";
             // 
             // label17
             // 
@@ -603,7 +604,7 @@
             this.btn_edit.TextFont = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
             // 
-            // uc_profile
+            // frm_uc_profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -650,7 +651,7 @@
             this.Controls.Add(this.tb_username);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label1);
-            this.Name = "uc_profile";
+            this.Name = "frm_uc_profile";
             this.Size = new System.Drawing.Size(1145, 712);
             ((System.ComponentModel.ISupportInitialize)(this.user_pic)).EndInit();
             this.ResumeLayout(false);

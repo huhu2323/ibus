@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation5 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_home));
-            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation6 = new BunifuAnimatorNS.Animation();
             this.time = new System.Windows.Forms.Label();
             this.date = new System.Windows.Forms.Label();
             this.logo2 = new System.Windows.Forms.PictureBox();
             this.logo1 = new System.Windows.Forms.PictureBox();
             this.side_menu = new System.Windows.Forms.Panel();
+            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbl_company = new System.Windows.Forms.Label();
             this.lbl_type = new System.Windows.Forms.Label();
             this.lbl_idno = new System.Windows.Forms.Label();
             this.btn_dashboard = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.user_pic = new iBUS.OvalPictureBox();
             this.btn_addtrip = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_conductor = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_driver = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -80,19 +80,19 @@
             this.contextmenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.uc_profile1 = new iBUS.frm_uc_profile();
-            this.uc_company1 = new iBUS.frm_uc_company();
-            this.uc_conductor1 = new iBUS.frm_uc_conductor();
-            this.uc_driver1 = new iBUS.frm_uc_driver();
-            this.uc_bus1 = new iBUS.frm_uc_bus();
-            this.uc_dashboard1 = new iBUS.frm_uc_dashboard();
             this.bunifuTransition2 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.frm_uc_conductor21 = new iBUS.frm_uc_conductor2();
+            this.frm_uc_bus1 = new iBUS.frm_uc_bus();
+            this.frm_uc_company1 = new iBUS.frm_uc_company();
+            this.frm_uc_profile1 = new iBUS.frm_uc_profile();
+            this.frm_uc_driver1 = new iBUS.frm_uc_driver();
+            this.frm_uc_dashboard1 = new iBUS.frm_uc_dashboard();
+            this.frm_uc_buscontrol1 = new iBUS.frm_uc_buscontrol();
             ((System.ComponentModel.ISupportInitialize)(this.logo2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo1)).BeginInit();
             this.side_menu.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.user_pic)).BeginInit();
             this.contextmenu_trip.SuspendLayout();
             this.contextmenu_bus.SuspendLayout();
             this.contextmenu_conductor.SuspendLayout();
@@ -160,12 +160,12 @@
             // side_menu
             // 
             this.side_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
+            this.side_menu.Controls.Add(this.bunifuFlatButton1);
             this.side_menu.Controls.Add(this.panel2);
             this.side_menu.Controls.Add(this.lbl_type);
             this.side_menu.Controls.Add(this.lbl_idno);
             this.side_menu.Controls.Add(this.btn_dashboard);
             this.side_menu.Controls.Add(this.bunifuFlatButton2);
-            this.side_menu.Controls.Add(this.user_pic);
             this.side_menu.Controls.Add(this.btn_addtrip);
             this.side_menu.Controls.Add(this.btn_conductor);
             this.side_menu.Controls.Add(this.btn_driver);
@@ -180,6 +180,44 @@
             this.side_menu.Name = "side_menu";
             this.side_menu.Size = new System.Drawing.Size(225, 772);
             this.side_menu.TabIndex = 23;
+            // 
+            // bunifuFlatButton1
+            // 
+            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(132)))), ((int)(((byte)(227)))));
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
+            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton1.BorderRadius = 0;
+            this.bunifuFlatButton1.ButtonText = "     Bus Control";
+            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton1.Iconimage")));
+            this.bunifuFlatButton1.Iconimage_right = null;
+            this.bunifuFlatButton1.Iconimage_right_Selected = null;
+            this.bunifuFlatButton1.Iconimage_Selected = null;
+            this.bunifuFlatButton1.IconMarginLeft = 13;
+            this.bunifuFlatButton1.IconMarginRight = 0;
+            this.bunifuFlatButton1.IconRightVisible = true;
+            this.bunifuFlatButton1.IconRightZoom = 0D;
+            this.bunifuFlatButton1.IconVisible = true;
+            this.bunifuFlatButton1.IconZoom = 50D;
+            this.bunifuFlatButton1.IsTab = true;
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(0, 547);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
+            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
+            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(132)))), ((int)(((byte)(227)))));
+            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.selected = false;
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(227, 35);
+            this.bunifuFlatButton1.TabIndex = 62;
+            this.bunifuFlatButton1.Text = "     Bus Control";
+            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
             // 
             // panel2
             // 
@@ -311,19 +349,7 @@
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.Gray;
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // user_pic
-            // 
-            this.user_pic.BackColor = System.Drawing.Color.White;
-            this.bunifuTransition1.SetDecoration(this.user_pic, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.user_pic, BunifuAnimatorNS.DecorationType.None);
-            this.user_pic.Image = ((System.Drawing.Image)(resources.GetObject("user_pic.Image")));
-            this.user_pic.Location = new System.Drawing.Point(31, 79);
-            this.user_pic.Name = "user_pic";
-            this.user_pic.Size = new System.Drawing.Size(157, 142);
-            this.user_pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.user_pic.TabIndex = 59;
-            this.user_pic.TabStop = false;
+            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
             // 
             // btn_addtrip
             // 
@@ -361,6 +387,7 @@
             this.btn_addtrip.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_addtrip.Textcolor = System.Drawing.Color.Gray;
             this.btn_addtrip.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_addtrip.Click += new System.EventHandler(this.btn_addtrip_Click);
             // 
             // btn_conductor
             // 
@@ -512,6 +539,7 @@
             this.btn_emergency.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_emergency.Textcolor = System.Drawing.Color.Gray;
             this.btn_emergency.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_emergency.Click += new System.EventHandler(this.btn_emergency_Click);
             // 
             // shapeContainer1
             // 
@@ -716,22 +744,22 @@
             // 
             this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.Transparent;
             this.bunifuTransition1.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 1F;
-            this.bunifuTransition1.DefaultAnimation = animation1;
+            animation5.AnimateOnlyDifferences = true;
+            animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
+            animation5.LeafCoeff = 0F;
+            animation5.MaxTime = 1F;
+            animation5.MinTime = 0F;
+            animation5.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicCoeff")));
+            animation5.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicShift")));
+            animation5.MosaicSize = 0;
+            animation5.Padding = new System.Windows.Forms.Padding(0);
+            animation5.RotateCoeff = 0F;
+            animation5.RotateLimit = 0F;
+            animation5.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.ScaleCoeff")));
+            animation5.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.SlideCoeff")));
+            animation5.TimeCoeff = 0F;
+            animation5.TransparencyCoeff = 1F;
+            this.bunifuTransition1.DefaultAnimation = animation5;
             // 
             // panel1
             // 
@@ -824,97 +852,26 @@
             this.toolStripMenuItem6.Text = "Company Profile";
             this.toolStripMenuItem6.Click += new System.EventHandler(this.toolStripMenuItem6_Click);
             // 
-            // uc_profile1
-            // 
-            this.uc_profile1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
-            this.bunifuTransition2.SetDecoration(this.uc_profile1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.uc_profile1, BunifuAnimatorNS.DecorationType.None);
-            this.uc_profile1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uc_profile1.Location = new System.Drawing.Point(225, 60);
-            this.uc_profile1.Name = "uc_profile1";
-            this.uc_profile1.Size = new System.Drawing.Size(1145, 712);
-            this.uc_profile1.TabIndex = 75;
-            this.uc_profile1.Visible = false;
-            // 
-            // uc_company1
-            // 
-            this.uc_company1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
-            this.bunifuTransition2.SetDecoration(this.uc_company1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.uc_company1, BunifuAnimatorNS.DecorationType.None);
-            this.uc_company1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uc_company1.Location = new System.Drawing.Point(225, 60);
-            this.uc_company1.Name = "uc_company1";
-            this.uc_company1.Size = new System.Drawing.Size(1145, 712);
-            this.uc_company1.TabIndex = 74;
-            this.uc_company1.Visible = false;
-            // 
-            // uc_conductor1
-            // 
-            this.uc_conductor1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
-            this.bunifuTransition2.SetDecoration(this.uc_conductor1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.uc_conductor1, BunifuAnimatorNS.DecorationType.None);
-            this.uc_conductor1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uc_conductor1.Location = new System.Drawing.Point(225, 60);
-            this.uc_conductor1.Name = "uc_conductor1";
-            this.uc_conductor1.Size = new System.Drawing.Size(1145, 712);
-            this.uc_conductor1.TabIndex = 73;
-            this.uc_conductor1.Visible = false;
-            // 
-            // uc_driver1
-            // 
-            this.uc_driver1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
-            this.bunifuTransition2.SetDecoration(this.uc_driver1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.uc_driver1, BunifuAnimatorNS.DecorationType.None);
-            this.uc_driver1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uc_driver1.Location = new System.Drawing.Point(225, 60);
-            this.uc_driver1.Name = "uc_driver1";
-            this.uc_driver1.Size = new System.Drawing.Size(1145, 712);
-            this.uc_driver1.TabIndex = 72;
-            this.uc_driver1.Visible = false;
-            // 
-            // uc_bus1
-            // 
-            this.uc_bus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
-            this.bunifuTransition2.SetDecoration(this.uc_bus1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.uc_bus1, BunifuAnimatorNS.DecorationType.None);
-            this.uc_bus1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uc_bus1.Location = new System.Drawing.Point(225, 60);
-            this.uc_bus1.Name = "uc_bus1";
-            this.uc_bus1.Size = new System.Drawing.Size(1145, 712);
-            this.uc_bus1.TabIndex = 71;
-            this.uc_bus1.Visible = false;
-            // 
-            // uc_dashboard1
-            // 
-            this.uc_dashboard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
-            this.bunifuTransition2.SetDecoration(this.uc_dashboard1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.uc_dashboard1, BunifuAnimatorNS.DecorationType.None);
-            this.uc_dashboard1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uc_dashboard1.Location = new System.Drawing.Point(225, 60);
-            this.uc_dashboard1.Name = "uc_dashboard1";
-            this.uc_dashboard1.Size = new System.Drawing.Size(1145, 712);
-            this.uc_dashboard1.TabIndex = 70;
-            // 
             // bunifuTransition2
             // 
             this.bunifuTransition2.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.bunifuTransition2.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 20;
-            animation2.Padding = new System.Windows.Forms.Padding(30);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.bunifuTransition2.DefaultAnimation = animation2;
+            animation6.AnimateOnlyDifferences = true;
+            animation6.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.BlindCoeff")));
+            animation6.LeafCoeff = 0F;
+            animation6.MaxTime = 1F;
+            animation6.MinTime = 0F;
+            animation6.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.MosaicCoeff")));
+            animation6.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation6.MosaicShift")));
+            animation6.MosaicSize = 20;
+            animation6.Padding = new System.Windows.Forms.Padding(30);
+            animation6.RotateCoeff = 0F;
+            animation6.RotateLimit = 0F;
+            animation6.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.ScaleCoeff")));
+            animation6.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.SlideCoeff")));
+            animation6.TimeCoeff = 0F;
+            animation6.TransparencyCoeff = 0F;
+            this.bunifuTransition2.DefaultAnimation = animation6;
             // 
             // timer2
             // 
@@ -922,24 +879,106 @@
             this.timer2.Interval = 1000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // home
+            // frm_uc_conductor21
+            // 
+            this.bunifuTransition2.SetDecoration(this.frm_uc_conductor21, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.frm_uc_conductor21, BunifuAnimatorNS.DecorationType.None);
+            this.frm_uc_conductor21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.frm_uc_conductor21.Location = new System.Drawing.Point(225, 60);
+            this.frm_uc_conductor21.Name = "frm_uc_conductor21";
+            this.frm_uc_conductor21.Size = new System.Drawing.Size(1145, 712);
+            this.frm_uc_conductor21.TabIndex = 63;
+            this.frm_uc_conductor21.Visible = false;
+            // 
+            // frm_uc_bus1
+            // 
+            this.frm_uc_bus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
+            this.bunifuTransition2.SetDecoration(this.frm_uc_bus1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.frm_uc_bus1, BunifuAnimatorNS.DecorationType.None);
+            this.frm_uc_bus1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.frm_uc_bus1.Location = new System.Drawing.Point(225, 60);
+            this.frm_uc_bus1.Name = "frm_uc_bus1";
+            this.frm_uc_bus1.Size = new System.Drawing.Size(1145, 712);
+            this.frm_uc_bus1.TabIndex = 63;
+            this.frm_uc_bus1.Visible = false;
+            // 
+            // frm_uc_company1
+            // 
+            this.frm_uc_company1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
+            this.bunifuTransition2.SetDecoration(this.frm_uc_company1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.frm_uc_company1, BunifuAnimatorNS.DecorationType.None);
+            this.frm_uc_company1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.frm_uc_company1.Location = new System.Drawing.Point(225, 60);
+            this.frm_uc_company1.Name = "frm_uc_company1";
+            this.frm_uc_company1.Size = new System.Drawing.Size(1145, 712);
+            this.frm_uc_company1.TabIndex = 67;
+            this.frm_uc_company1.Visible = false;
+            // 
+            // frm_uc_profile1
+            // 
+            this.frm_uc_profile1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
+            this.bunifuTransition2.SetDecoration(this.frm_uc_profile1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.frm_uc_profile1, BunifuAnimatorNS.DecorationType.None);
+            this.frm_uc_profile1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.frm_uc_profile1.Location = new System.Drawing.Point(225, 60);
+            this.frm_uc_profile1.Name = "frm_uc_profile1";
+            this.frm_uc_profile1.Size = new System.Drawing.Size(1145, 712);
+            this.frm_uc_profile1.TabIndex = 66;
+            this.frm_uc_profile1.Visible = false;
+            // 
+            // frm_uc_driver1
+            // 
+            this.frm_uc_driver1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
+            this.bunifuTransition2.SetDecoration(this.frm_uc_driver1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.frm_uc_driver1, BunifuAnimatorNS.DecorationType.None);
+            this.frm_uc_driver1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.frm_uc_driver1.Location = new System.Drawing.Point(225, 60);
+            this.frm_uc_driver1.Name = "frm_uc_driver1";
+            this.frm_uc_driver1.Size = new System.Drawing.Size(1145, 712);
+            this.frm_uc_driver1.TabIndex = 65;
+            this.frm_uc_driver1.Visible = false;
+            // 
+            // frm_uc_dashboard1
+            // 
+            this.frm_uc_dashboard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
+            this.bunifuTransition2.SetDecoration(this.frm_uc_dashboard1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.frm_uc_dashboard1, BunifuAnimatorNS.DecorationType.None);
+            this.frm_uc_dashboard1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.frm_uc_dashboard1.Location = new System.Drawing.Point(225, 60);
+            this.frm_uc_dashboard1.Name = "frm_uc_dashboard1";
+            this.frm_uc_dashboard1.Size = new System.Drawing.Size(1145, 712);
+            this.frm_uc_dashboard1.TabIndex = 64;
+            // 
+            // frm_uc_buscontrol1
+            // 
+            this.bunifuTransition2.SetDecoration(this.frm_uc_buscontrol1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.frm_uc_buscontrol1, BunifuAnimatorNS.DecorationType.None);
+            this.frm_uc_buscontrol1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.frm_uc_buscontrol1.Location = new System.Drawing.Point(225, 60);
+            this.frm_uc_buscontrol1.Name = "frm_uc_buscontrol1";
+            this.frm_uc_buscontrol1.Size = new System.Drawing.Size(1145, 712);
+            this.frm_uc_buscontrol1.TabIndex = 24;
+            this.frm_uc_buscontrol1.Visible = false;
+            // 
+            // frm_home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(1370, 772);
-            this.Controls.Add(this.uc_profile1);
-            this.Controls.Add(this.uc_company1);
-            this.Controls.Add(this.uc_conductor1);
-            this.Controls.Add(this.uc_driver1);
-            this.Controls.Add(this.uc_bus1);
-            this.Controls.Add(this.uc_dashboard1);
+            this.Controls.Add(this.frm_uc_conductor21);
+            this.Controls.Add(this.frm_uc_bus1);
+            this.Controls.Add(this.frm_uc_company1);
+            this.Controls.Add(this.frm_uc_profile1);
+            this.Controls.Add(this.frm_uc_driver1);
+            this.Controls.Add(this.frm_uc_dashboard1);
+            this.Controls.Add(this.frm_uc_buscontrol1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.side_menu);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "home";
+            this.Name = "frm_home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "home";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -948,7 +987,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.logo1)).EndInit();
             this.side_menu.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.user_pic)).EndInit();
             this.contextmenu_trip.ResumeLayout(false);
             this.contextmenu_bus.ResumeLayout(false);
             this.contextmenu_conductor.ResumeLayout(false);
@@ -1012,14 +1050,17 @@
         private Bunifu.Framework.UI.BunifuImageButton btn_logout;
         private Bunifu.Framework.UI.BunifuImageButton btn_message;
         private Bunifu.Framework.UI.BunifuImageButton btn_profile;
-        private frm_uc_dashboard uc_dashboard1;
-        private frm_uc_bus uc_bus1;
-        private frm_uc_driver uc_driver1;
-        private frm_uc_conductor uc_conductor1;
-        private frm_uc_company uc_company1;
-        private frm_uc_profile uc_profile1;
+        private frm_uc_dashboard frm_uc_dashboard1;
+        private frm_uc_driver frm_uc_driver1;
+        private frm_uc_profile frm_uc_profile1;
         public System.Windows.Forms.ContextMenuStrip contextmenu;
         public System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
         public System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
+        public Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private frm_uc_buscontrol frm_uc_buscontrol1 = new frm_uc_buscontrol();
+        private frm_uc_company frm_uc_company1;
+        private frm_uc_bus frm_uc_bus1;
+        private frm_uc_conductor2 frm_uc_conductor21;
+        
     }
 }

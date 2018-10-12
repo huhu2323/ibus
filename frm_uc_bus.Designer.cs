@@ -34,9 +34,6 @@
             this.btn_search = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_add = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_refresh = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.lbl_company = new System.Windows.Forms.Label();
-            this.lbl_type = new System.Windows.Forms.Label();
-            this.lbl_user = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -169,45 +166,7 @@
             this.btn_refresh.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_refresh.Textcolor = System.Drawing.Color.White;
             this.btn_refresh.TextFont = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // lbl_company
-            // 
-            this.lbl_company.AutoSize = true;
-            this.lbl_company.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_company.ForeColor = System.Drawing.Color.Black;
-            this.lbl_company.Location = new System.Drawing.Point(73, 698);
-            this.lbl_company.Name = "lbl_company";
-            this.lbl_company.Size = new System.Drawing.Size(56, 14);
-            this.lbl_company.TabIndex = 169;
-            this.lbl_company.Text = "company";
-            this.lbl_company.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_company.Visible = false;
-            // 
-            // lbl_type
-            // 
-            this.lbl_type.AutoSize = true;
-            this.lbl_type.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_type.ForeColor = System.Drawing.Color.Black;
-            this.lbl_type.Location = new System.Drawing.Point(38, 698);
-            this.lbl_type.Name = "lbl_type";
-            this.lbl_type.Size = new System.Drawing.Size(35, 14);
-            this.lbl_type.TabIndex = 167;
-            this.lbl_type.Text = "type";
-            this.lbl_type.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_type.Visible = false;
-            // 
-            // lbl_user
-            // 
-            this.lbl_user.AutoSize = true;
-            this.lbl_user.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_user.ForeColor = System.Drawing.Color.Black;
-            this.lbl_user.Location = new System.Drawing.Point(3, 698);
-            this.lbl_user.Name = "lbl_user";
-            this.lbl_user.Size = new System.Drawing.Size(35, 14);
-            this.lbl_user.TabIndex = 168;
-            this.lbl_user.Text = "user";
-            this.lbl_user.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_user.Visible = false;
+            this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
             // 
             // listView1
             // 
@@ -292,11 +251,8 @@
             this.Controls.Add(this.btn_search);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.tb_search);
-            this.Controls.Add(this.lbl_company);
             this.Controls.Add(this.btn_add);
             this.Controls.Add(this.btn_refresh);
-            this.Controls.Add(this.lbl_type);
-            this.Controls.Add(this.lbl_user);
             this.Controls.Add(this.label1);
             this.Location = new System.Drawing.Point(225, 60);
             this.Name = "frm_uc_bus";
@@ -312,9 +268,6 @@
         public Bunifu.Framework.UI.BunifuFlatButton btn_search;
         public Bunifu.Framework.UI.BunifuFlatButton btn_refresh;
         public Bunifu.Framework.UI.BunifuFlatButton btn_add;
-        public System.Windows.Forms.Label lbl_company;
-        public System.Windows.Forms.Label lbl_type;
-        public System.Windows.Forms.Label lbl_user;
         private System.Windows.Forms.TextBox tb_search;
         public System.Windows.Forms.ListView listView1;
         public System.Windows.Forms.ColumnHeader columnHeader1;

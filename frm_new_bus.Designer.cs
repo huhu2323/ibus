@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_new_bus));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.tb_ibusno = new System.Windows.Forms.TextBox();
+            this.cb_company = new System.Windows.Forms.ComboBox();
+            this.tb_model = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbl_bus = new System.Windows.Forms.Label();
-            this.tb_company = new System.Windows.Forms.TextBox();
             this.btn_cancel = new Bunifu.Framework.UI.BunifuFlatButton();
             this.tb_plateno = new System.Windows.Forms.TextBox();
             this.btn_clear = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -44,14 +44,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cb_routefrom = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.cb_model = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.cb_class = new System.Windows.Forms.ComboBox();
-            this.dt_added = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.lbl_user = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -60,9 +57,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
-            this.panel1.Controls.Add(this.tb_ibusno);
+            this.panel1.Controls.Add(this.cb_company);
+            this.panel1.Controls.Add(this.tb_model);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.tb_company);
             this.panel1.Controls.Add(this.btn_cancel);
             this.panel1.Controls.Add(this.tb_plateno);
             this.panel1.Controls.Add(this.btn_clear);
@@ -73,27 +70,35 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.cb_routefrom);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.cb_model);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.cb_class);
-            this.panel1.Controls.Add(this.dt_added);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(21, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(876, 400);
             this.panel1.TabIndex = 0;
             // 
-            // tb_ibusno
+            // cb_company
             // 
-            this.tb_ibusno.BackColor = System.Drawing.Color.White;
-            this.tb_ibusno.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_ibusno.Location = new System.Drawing.Point(432, 101);
-            this.tb_ibusno.Name = "tb_ibusno";
-            this.tb_ibusno.Size = new System.Drawing.Size(89, 29);
-            this.tb_ibusno.TabIndex = 163;
+            this.cb_company.BackColor = System.Drawing.Color.White;
+            this.cb_company.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_company.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_company.FormattingEnabled = true;
+            this.cb_company.Location = new System.Drawing.Point(34, 101);
+            this.cb_company.Name = "cb_company";
+            this.cb_company.Size = new System.Drawing.Size(381, 30);
+            this.cb_company.TabIndex = 165;
+            // 
+            // tb_model
+            // 
+            this.tb_model.BackColor = System.Drawing.Color.White;
+            this.tb_model.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_model.Location = new System.Drawing.Point(240, 176);
+            this.tb_model.Name = "tb_model";
+            this.tb_model.Size = new System.Drawing.Size(188, 29);
+            this.tb_model.TabIndex = 164;
             // 
             // panel2
             // 
@@ -116,16 +121,6 @@
             this.lbl_bus.TabIndex = 163;
             this.lbl_bus.Text = "Add New Bus";
             this.lbl_bus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tb_company
-            // 
-            this.tb_company.BackColor = System.Drawing.Color.White;
-            this.tb_company.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_company.Location = new System.Drawing.Point(34, 101);
-            this.tb_company.Name = "tb_company";
-            this.tb_company.ReadOnly = true;
-            this.tb_company.Size = new System.Drawing.Size(392, 29);
-            this.tb_company.TabIndex = 137;
             // 
             // btn_cancel
             // 
@@ -308,17 +303,6 @@
             this.label6.TabIndex = 133;
             this.label6.Text = "Bus Company:";
             // 
-            // cb_model
-            // 
-            this.cb_model.BackColor = System.Drawing.Color.White;
-            this.cb_model.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cb_model.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_model.FormattingEnabled = true;
-            this.cb_model.Location = new System.Drawing.Point(240, 176);
-            this.cb_model.Name = "cb_model";
-            this.cb_model.Size = new System.Drawing.Size(186, 30);
-            this.cb_model.TabIndex = 126;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -341,16 +325,6 @@
             this.cb_class.Name = "cb_class";
             this.cb_class.Size = new System.Drawing.Size(186, 30);
             this.cb_class.TabIndex = 125;
-            // 
-            // dt_added
-            // 
-            this.dt_added.CustomFormat = "yyyy-MM-dd";
-            this.dt_added.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dt_added.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dt_added.Location = new System.Drawing.Point(653, 257);
-            this.dt_added.Name = "dt_added";
-            this.dt_added.Size = new System.Drawing.Size(186, 29);
-            this.dt_added.TabIndex = 132;
             // 
             // label1
             // 
@@ -387,18 +361,6 @@
             this.label7.Size = new System.Drawing.Size(111, 19);
             this.label7.TabIndex = 124;
             this.label7.Text = "Route: (From)";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(649, 235);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 19);
-            this.label5.TabIndex = 131;
-            this.label5.Text = "Date Added:";
             // 
             // lbl_user
             // 
@@ -441,13 +403,10 @@
         #endregion
 
         public System.Windows.Forms.Label label6;
-        public System.Windows.Forms.DateTimePicker dt_added;
-        public System.Windows.Forms.Label label5;
         public System.Windows.Forms.Label label1;
         public System.Windows.Forms.ComboBox cb_routeto;
         public System.Windows.Forms.ComboBox cb_routefrom;
         public System.Windows.Forms.Label label16;
-        public System.Windows.Forms.ComboBox cb_model;
         public System.Windows.Forms.ComboBox cb_class;
         public System.Windows.Forms.Label label7;
         public System.Windows.Forms.Label label4;
@@ -460,9 +419,9 @@
         public System.Windows.Forms.Panel panel2;
         public System.Windows.Forms.Panel panel1;
         public System.Windows.Forms.TextBox tb_plateno;
-        public System.Windows.Forms.TextBox tb_company;
         public System.Windows.Forms.TextBox tb_busno;
         public System.Windows.Forms.Label lbl_user;
-        public System.Windows.Forms.TextBox tb_ibusno;
+        public System.Windows.Forms.TextBox tb_model;
+        public System.Windows.Forms.ComboBox cb_company;
     }
 }

@@ -15,7 +15,7 @@ namespace iBUS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_home());
+            Application.Run(new frm_login());
         }
     }
 }

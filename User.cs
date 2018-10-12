@@ -93,5 +93,33 @@ namespace iBUS
             }
             return users;
         }
+
+        public Company getCompany()
+        {
+            Company company = new Company();
+            if (this.user_company == 0)
+            {
+                company.name = "Admin";
+                company.id = 0;
+                return company;
+            }
+            MySqlConnection conn = new MySqlConnection(MYSQLConnection.connectionString);
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM tbl_company WHERE id = " + this.user_company, conn);
+            try
+            {
+                conn.Open();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            MySqlDataReader rdr = cmd.ExecuteReader();
+            while (rdr.Read())
+            {
+                company.id = int.Parse(rdr["id"].ToString());
+                company.name = rdr["name"].ToString();
+            }
+            return company;
+        }
     }
 }

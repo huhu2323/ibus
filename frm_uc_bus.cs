@@ -18,7 +18,25 @@ namespace iBUS
         public frm_uc_bus()
         {
             InitializeComponent();
+            this.refreshData();
+        }
+
+        private void btn_add_Click(object sender, EventArgs e)
+        {
+            frm_new_bus frm_new_bus = new frm_new_bus();
+            frm_new_bus.ShowDialog();
+        }
+
+        private void btn_refresh_Click(object sender, EventArgs e)
+        {
+            this.refreshData();
+        }
+
+
+        private void refreshData()
+        {
             this.buses = Bus.all();
+            listView1.Items.Clear();
             foreach (var x in this.buses)
             {
                 ListViewItem lvi = new ListViewItem();
@@ -29,16 +47,9 @@ namespace iBUS
                 lvi.SubItems.Add(x.getFrom().name);
                 lvi.SubItems.Add(x.getTo().name);
                 lvi.SubItems.Add(x.bus_plate);
-                lvi.SubItems.Add(x.date_added);
+                lvi.SubItems.Add(x.date_added.ToString());
                 listView1.Items.Add(lvi);
             }
         }
-
-        private void btn_add_Click(object sender, EventArgs e)
-        {
-            frm_new_bus frm_new_bus = new frm_new_bus();
-            frm_new_bus.ShowDialog();
-        }
-        
     }
 }

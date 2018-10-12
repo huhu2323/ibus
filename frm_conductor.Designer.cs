@@ -503,7 +503,7 @@
             this.btn_browse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_browse.Textcolor = System.Drawing.Color.White;
             this.btn_browse.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_browse.Click += new System.EventHandler(this.btn_browse_Click_2);
+            
             // 
             // pic_conductor
             // 
@@ -565,7 +565,7 @@
             this.dt_bday.Name = "dt_bday";
             this.dt_bday.Size = new System.Drawing.Size(126, 26);
             this.dt_bday.TabIndex = 108;
-            this.dt_bday.ValueChanged += new System.EventHandler(this.dt_bday_ValueChanged_1);
+            
             // 
             // label7
             // 
@@ -672,7 +672,7 @@
             this.btn_exit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_exit.Textcolor = System.Drawing.Color.White;
             this.btn_exit.TextFont = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
+            
             // 
             // btn_clear
             // 
@@ -707,7 +707,7 @@
             this.btn_clear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_clear.Textcolor = System.Drawing.Color.White;
             this.btn_clear.TextFont = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
+            
             // 
             // btn_save
             // 
@@ -742,7 +742,7 @@
             this.btn_save.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_save.Textcolor = System.Drawing.Color.White;
             this.btn_save.TextFont = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
+            
             // 
             // lbl_user
             // 
@@ -770,7 +770,7 @@
             this.Location = new System.Drawing.Point(248, 84);
             this.Name = "conductor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Load += new System.EventHandler(this.conductor_Load);
+            
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);

@@ -140,12 +140,21 @@ namespace iBUS
             return station;
         }
 
-        public void save()
+        public bool save()
         {
             if (this.bus_id == null)
             {
                 MySqlConnection conn = new MySqlConnection(MYSQLConnection.connectionString);
-                String cmdString = "INSERT INTO tbl_station SET "
+
+                try
+                {
+                    conn.Open();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+                String cmdString = "INSERT INTO tbl_bus SET "
                     + "bus_company=" + this.bus_company.ToString() + ","
                     + "bus_no='" + this.bus_no + "',"
                     + "bus_model='" + this.bus_model + "',"
@@ -153,22 +162,27 @@ namespace iBUS
                     + "bus_from=" + this.bus_from + ","
                     + "bus_to=" + this.bus_to + ","
                     + "bus_plate='" + this.bus_plate + "',"
-                    + "date_added='" + DateTime.Now + "'";
+                    + "date_added='" + DateTime.Parse(this.date_added).ToString("yyyy-MM-dd HH:mm:ss") + "'";
+                //Y-m-d H:i:s
+                Console.WriteLine(cmdString);
                 MySqlCommand cmd = new MySqlCommand(cmdString, conn);
                 try
                 {
                     cmd.ExecuteNonQuery();
                     cmd.Dispose();
+                    return true;
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
+                    return false;
                 }
             }
             else
             {
  
             }
+            return false;
         }
 
     }
